@@ -52,6 +52,11 @@ function countdown(duration, disp, i){
             clearInterval(interval);
         }
 
+        if(status[i].id == "online"){
+            disp.innerHTML = "00"
+            clearInterval(interval);
+        }
+
         if (--time < 0) {
             status[i].id = "online";
             status[i].innerHTML = "online";
