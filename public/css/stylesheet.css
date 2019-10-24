@@ -1,0 +1,37 @@
+.status{
+  color: white;
+  font-weight: 700;
+}
+
+#offline{
+  background-color: red;
+}
+
+#online{
+  background-color: green;
+}
+
+#malfunction{
+  background-color: orange;
+}
+
+h4{
+  text-align: center;
+}
+
+nav{
+  height: 10vh;
+}
+
+.top{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+#reset{
+  color: white;
+  font-weight: 700;
+  background-color: red;
+  font-size: 20px;
+}
