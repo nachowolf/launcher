@@ -31,6 +31,7 @@ reset.addEventListener("click", function(){
     for (let x = 0; x< status.length; x++){
        status[x].id = "online";
        status[x].innerHTML = "online";
+       timer[x].innerHTML = "00";
 }
 alert(`missles has be reloaded`);
 })
